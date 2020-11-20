@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Cours Javascript</title>
+</head>
+<body>
+    <h1>Cours JS : 26 octobre 2020</h1>
+
+    <h2>Intro</h2>
+
+    <section class="ajoutListe">
+        <h1>Array</h1>
+        <form action="POST" id="ajoutLivre">
+            <label for="titre">Entrer le titre du livre</label>
+            <input type="text" name="titre" id="titre"> <br>
+            <label for="auteur">Entrer le nom de l'auteur</label>
+            <input type="text" name="auteur" id="auteur"> <br>
+            <label for="genre">Entrer le genre du livre</label>
+            <input type="text" name="genre" id="genre"> <br>
+            <input type="submit">
+        </form>
+            
+            <p id="affichageListe"></p>
+            <ul id="afficherLivres">
+            </ul>
+    </section>
+
+    <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. A, laboriosam qui. 
+    Accusamus unde excepturi a inventore fuga at dolore ad molestias, laborum rem, totam possimus suscipit, minus iusto dicta quibusdam!
+    </p>
+
+
+
+    <section class="contener" id="calculatrice">
+        <h1 class="presentation">Calculatrice</h1>
+        <button id="button">Mode sombre / Mode clair</button>
+        <form method="POST" action="traitement.php" id="formulaire" class="presentation">
+            <input type="number" name="nb1" id="nb1" class="nb_input presentation">
+            <select name="operateur" id="operateur" class="presentation">
+                <option value="" selected disabled >Choisir un opérateur</option>    
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="*">*</option>
+                <option value="/">/</option>
+            </select>
+            <input type="number" name="nb2" id="nb2" class="nb_input" class="presentation">
+            <input type="submit" value="Calculer" id="envoyer" class="presentation"/>
+            <p id=result class="presentation"></p>
+        </form>
+    </section>
+        
+
+
+
+
+    <p>
+    Consectetur quibusdam reprehenderit ut, corrupti officia harum, fugit ea ipsum maxime at neque. Officiis nesciunt voluptates architecto, 
+    quos voluptatibus reiciendis deserunt possimus vitae ab odit, fugit consequatur ipsa odio neque.
+    </p>
+
+    <button id="afficherTexte">Afficher le texte</button>
+    <button id="validation">En êtes-vous sur?</button>
+    <p id="texteAafficher">
+    Eius nihil culpa eaque, maiores quis unde assumenda, aperiam sequi officiis atque reprehenderit ratione excepturi? Totam ullam, nihil, 
+    rchitecto quos maiores iure expedita obcaecati amet commodi aliquam voluptas, eligendi quisquam?
+    </p>
+
+    
+    <h2>Body</h2>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. A, laboriosam qui. 
+        Accusamus unde excepturi a inventore fuga at dolore ad molestias, laborum rem, totam possimus suscipit, minus iusto dicta quibusdam!
+    </p>
+    <input type="text" id="texte">
+    <p>
+        Consectetur quibusdam reprehenderit ut, corrupti officia harum, fugit ea ipsum maxime at neque. Officiis nesciunt voluptates architecto, 
+        quos voluptatibus reiciendis deserunt possimus vitae ab odit, fugit consequatur ipsa odio neque.
+    </p>
+    <p>
+        Eius nihil culpa eaque, maiores quis unde assumenda, aperiam sequi officiis atque reprehenderit ratione excepturi? Totam ullam, nihil, 
+        rchitecto quos maiores iure expedita obcaecati amet commodi aliquam voluptas, eligendi quisquam?
+    </p>
+
+
+    <script src="arrays.js"></script>
+    <script src="eventloop.js"></script>
+    <script src="DOM.js"></script>
+    <script src="exFonction.js"></script>
+    <script src = "tp6.js"></script>
+    <script src="script_cours.js"></script>
+    
+</body>
+</html>
+
